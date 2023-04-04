@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+      Scanner entrada =new Scanner(System.in);
+      String nome;
+      String endereco;
+      double numero;
+      System.out.print("Qual seu nome ");
+         nome = entrada.next();
+         System.out.print("qual seu endereco ");
+         endereco = entrada.next();
+        System.out.print("qual seu telefone ");
+        numero= entrada.nextDouble();
+         System.out.print( "seus nome e "  + nome  );
+         System.out.print("seus ndereco "  + endereco    );
+        System.out.print("seus numero e "  + nome    );
+
+
+    }
+    }
