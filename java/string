@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        String s =" bom dia x";
+        s = s.replace("x", "senhora");
+        //substitiu uma caractar da string sem autera- la(a ordem faz diferenca)//
+        s = s.toUpperCase();
+        // CONVERTE O VALOR DE UMA STRING PARA MAIUSCULA//
+        s.concat("???");
+        
+
+        System.out.println(s);
+
+
+
+    }
+    }
